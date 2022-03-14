@@ -14,8 +14,8 @@ https://github.com/onnx/onnx-tensorrt/issues/670
 # tensorrt8버전으로 이전하기 위해 tensorrt:22.01-py3 도커 이미지를 띄웠습니다.
 
 # pycuda 에러시 (2020.1 버전 기준)
-$ wget https://files.pythonhosted.org/packages/5a/56/4682a5118a234d15aa1c8768a528aac4858c7b04d2674e18d586d3dfda04/pycuda-2020.1.tar.gz
-$ tar xzf pycuda-2020.1.tar.gz
-$ cd pycuda-2020.1
-$ python configure.py --cuda-root=/usr/local/cuda
-$ make install
+#### $ wget https://files.pythonhosted.org/packages/5a/56/4682a5118a234d15aa1c8768a528aac4858c7b04d2674e18d586d3dfda04/pycuda-2020.1.tar.gz
+#### $ tar xzf pycuda-2020.1.tar.gz
+#### $ cd pycuda-2020.1
+#### $ python configure.py --cuda-root=/usr/local/cuda
+#### $ make install
