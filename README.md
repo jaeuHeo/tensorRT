@@ -47,3 +47,9 @@ torch 버전은 현재 cuda 버전과 동일 및 가까운 버전을 install 한
 [TensorRT] ERROR: 1: [apiCheck.cpp::apiCatchCudaError::17] Error Code 1: Cuda Runtime (invalid resource handle)
   
 위 에러는 아마 캐싱 문제인 것으로 판단됨... apiCatchCudaError...
+
+해결해씀..!!!!
+
+단지 uwsgi 에서 디장고 thread를 1로 해주면 됨...프로세스도 상관없이...
+
+그리고 추가로 1 인퍼런스가 끝나면 allocatation된 값 지워주는 것 추가햇음
